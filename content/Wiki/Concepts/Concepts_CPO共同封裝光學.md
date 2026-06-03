@@ -1,0 +1,24 @@
+---
+dg-publish: true
+created: 2026-06-02
+updated: 2026-06-02
+tags: [technology, hardware, AI, CPO]
+type: concept
+---
+# Concepts_CPO共同封裝光學
+
+## 📌 定義
+**CPO (Co-Packaged Optics)** 是一種將矽光子 (Silicon Photonics) 晶片與交換晶片 (ASIC) 共同封裝在同一個載板上的技術，旨在減少電子訊號傳輸距離，降低功耗並提高頻寬。
+
+## 🚀 在 AI 領域的應用
+隨著 AI 運算量暴增，傳統的可插拔光模組 (Pluggable) 面臨散熱與傳輸損耗的瓶頸。CPO 被視為 1.6T 甚至 3.2T 世代的終極解決方案。
+
+### 📅 產業現況 (2026/06)
+- **量產元年**：2026 年下半年是 CPO 產品從驗證轉向量產的關鍵點。
+- **關鍵組件**：**FAU (Fiber Array Unit, 光纖陣列單元)** 是連接外部光纖與封裝內矽光子晶片的橋樑。
+
+## 🏢 相關實體
+- [[Organizations_波若威]]：供應 FAU 組件，為 CPO 產業鏈的關鍵光學封裝夥伴。
+
+## 來源
+- [[Source_波若威_分析_20260602]]

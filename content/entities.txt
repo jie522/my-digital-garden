@@ -1,0 +1,15 @@
+﻿
+
+    目錄: D:\Database\📂 05-生活 (日常生活)\📂財經\股票\Wiki\Entities
+
+
+Mode                 LastWriteTime         Length Name                                                   
+----                 -------------         ------ ----                                                   
+-a----          2026/6/2  下午 09:37           1238 Organizations_中際旭創.md                                  
+-a----          2026/6/2  下午 09:37           3971 Organizations_兆利.md                                    
+-a----          2026/6/2  下午 10:24           1397 Organizations_南亞科.md                                   
+-a----          2026/6/2  下午 09:37            592 Organizations_富世達.md                                   
+-a----          2026/6/2  下午 09:29           4621 Organizations_波若威.md                                   
+-a----          2026/6/2  下午 10:17           1282 Organizations_雷虎科技.md                                  
+
+
