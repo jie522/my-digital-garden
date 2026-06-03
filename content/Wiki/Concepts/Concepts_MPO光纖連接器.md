@@ -1,3 +1,10 @@
+---
+dg-publish: true
+created: 2026-06-01
+updated: 2026-06-01
+tags: [technology, hardware, AI]
+type: concept
+---
 # Concepts_MPO光纖連接器
 
 ## 📌 定義

@@ -1,3 +1,11 @@
+---
+dg-publish: true
+created: 2026-06-01
+updated: 2026-06-01
+tags: [tech, defense, concept]
+type: concept
+---
+
 # Concepts_無人載具
 
 無人載具 (Unmanned Vehicles) 指無需人類駕駛員在機上，透過遙控或自動駕駛執行的載具系統。

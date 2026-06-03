@@ -100,8 +100,41 @@ li {
   padding-bottom: 10rem;
 }
 
-/* Hide everything explicitly requested to be gone */
-.content-meta, .properties, .tags, .graph, .backlinks-title, .toc-title {
+/* Metadata Styling: "Textured" & Small */
+.content-meta, .properties {
+  display: block !important;
+  font-family: var(--codeFont);
+  font-size: 0.75rem !important;
+  color: #555 !important;
+  margin: 1rem 0 !important;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+}
+
+.properties {
+  margin-top: 2rem !important;
+  background: #050505 !important;
+  padding: 1rem !important;
+  border-left: 1px solid #222 !important;
+}
+
+.property-row {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 0.2rem;
+}
+
+.property-key {
+  color: #888 !important;
+  min-width: 80px;
+}
+
+.property-value {
+  color: #555 !important;
+}
+
+/* Hide Tags & other explicitly unwanted elements */
+.tags, .graph, .backlinks-title, .toc-title {
   display: none !important;
 }
 

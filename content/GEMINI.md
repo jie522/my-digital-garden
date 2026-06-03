@@ -1,3 +1,8 @@
+---
+updated: 2026-05-17 12:53:27
+type: instruction
+tags: [workflow, system, karpathy-wiki]
+---
 g# Gemini CLI 知識庫管理指令 (Karpathy Style LLM Wiki)
 
 此文件結合了 Karpathy 的 LLM Wiki 框架與系統部署規範，定義了 Gemini CLI 協助維護個人知識庫的最高運作準則。

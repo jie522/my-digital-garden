@@ -1,3 +1,10 @@
+---
+dg-publish: true
+created: 2026-06-01
+updated: 2026-06-01
+tags: [stock, organization, 3548]
+type: entity
+---
 # Organizations_兆利 (3548)
 
 ## 📌 基本資料

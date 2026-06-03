@@ -1,3 +1,10 @@
+---
+dg-publish: true
+created: 2026-06-02
+updated: 2026-06-02
+tags: [technology, hardware, AI, CPO]
+type: concept
+---
 # Concepts_CPO共同封裝光學
 
 ## 📌 定義
