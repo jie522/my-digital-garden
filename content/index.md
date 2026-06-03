@@ -1,5 +1,6 @@
 ---
-updated: 2026-06-02
+dg-publish: true
+updated: 2026-06-03
 type: index
 ---
 # 📂 股票知識庫全域索引
@@ -21,6 +22,7 @@ type: index
 - [[Organizations_波若威]]
 - [[Organizations_中際旭創]]
 - [[Organizations_雷虎科技]]
+- [[Organizations_仁寶]]
 
 ## 📜 原始來源 (Sources)
 - [[Source_南亞科_分析_20260602]]
@@ -29,6 +31,7 @@ type: index
 - [[Source_雷虎科技_分析_20260602]]
 - [[Source_波若威_分析_20260602]]
 - [[Source_波若威_近期事件分析_20260602]]
+- [[Source_仁寶_雷虎_COMPUTEX_20260603]]
 
 ---
-*最後更新：2026-06-02*
+*最後更新：2026-06-03*
