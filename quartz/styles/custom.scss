@@ -1,30 +1,80 @@
 @use "./variables.scss" as *;
 
+/* AI-First Design: "High-end Minimalist" (Inspired by Linear & Vercel) */
+
+:root {
+  --bodyFont: "Inter", "Source Sans Pro", sans-serif;
+  --headerFont: "Inter", "Schibsted Grotesk", sans-serif;
+}
+
 body {
-  font-family: "Inter", "Source Sans Pro", sans-serif;
-  letter-spacing: -0.02em; /* Tight letter spacing for modern look */
+  font-family: var(--bodyFont);
+  letter-spacing: -0.015em; 
+  line-height: 1.7;
+  -webkit-font-smoothing: antialiased;
 }
 
-code, pre {
-  font-family: "JetBrains Mono", "IBM Plex Mono", monospace;
-  background-color: var(--lightgray);
-  border: 1px solid #222;
+/* Radical Subtraction: Remove unnecessary borders */
+.explorer-container, .popover, pre, code {
+  border: none !important;
+  box-shadow: none !important;
 }
 
-/* AI-First Design Principle: Subtraction & Clean Accents */
-.alias, .internal-link {
+/* Typography Polish */
+h1, h2, h3, h4 {
+  font-family: var(--headerFont);
+  letter-spacing: -0.04em; /* Aggressive tight spacing for headers */
+  font-weight: 700;
+  color: var(--dark);
+}
+
+h1 { font-size: 2.5rem; margin-top: 3rem; }
+h2 { font-size: 1.8rem; margin-top: 2.5rem; border-bottom: 1px solid #111; padding-bottom: 0.5rem; }
+
+/* Emerald Glow Accents */
+.internal-link, .alias {
+  color: var(--secondary);
   text-decoration: none;
-  border-bottom: 1px solid transparent;
-  transition: border-color 0.2s ease;
+  border-bottom: 1px solid rgba(0, 255, 65, 0.1);
+  transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .internal-link:hover {
+  background-color: rgba(0, 255, 65, 0.05);
   border-bottom: 1px solid var(--secondary);
 }
 
-/* Card-like surfaces for specific components */
-.explorer-container, .popover {
-  background-color: var(--lightgray);
-  border: 1px solid #222;
-  border-radius: 8px;
+/* Sidebar Styling: Clean & Breathable */
+.sidebar {
+  padding-top: 4rem !important;
+}
+
+.folder-title, .file-title {
+  font-size: 0.95rem;
+  color: var(--gray);
+  transition: color 0.2s ease;
+}
+
+.folder-title:hover, .file-title:hover {
+  color: var(--dark);
+}
+
+/* Layout: Center-focused reading */
+.center article {
+  max-width: 750px;
+  margin: 0 auto;
+}
+
+/* Component: Search */
+.search-button {
+  background: #111 !important;
+  border-radius: 6px !important;
+  padding: 0.5rem 1rem !important;
+  font-size: 0.9rem !important;
+  border: 1px solid #222 !important;
+}
+
+/* Hide specific metadata elements that might remain */
+.content-meta, .properties, .tags {
+  display: none !important;
 }
