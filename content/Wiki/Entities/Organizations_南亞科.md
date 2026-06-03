@@ -1,11 +1,3 @@
----
-dg-publish: true
-created: 2026-06-02
-updated: 2026-06-02
-tags: [stock, semiconductor, dram, organization, 2408]
-type: entity
----
-
 # Organizations_南亞科
 
 南亞科技 (Nanya Technology Corp, 2408.TW) 是台灣 DRAM 龍頭廠商，隸屬於台塑集團。2026 年受惠於 AI 帶動的記憶體漲價潮與先進製程轉型，進入高獲利成長期。

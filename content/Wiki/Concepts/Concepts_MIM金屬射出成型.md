@@ -1,10 +1,3 @@
----
-dg-publish: true
-created: 2026-06-01
-updated: 2026-06-01
-tags: [manufacturing, technology, MIM]
-type: concept
----
 # Concepts_MIM金屬射出成型
 
 ## 📌 定義

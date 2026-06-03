@@ -1,11 +1,3 @@
----
-dg-publish: true
-created: 2026-06-01
-updated: 2026-06-01
-tags: [stock, defense, organization]
-type: entity
----
-
 # Organizations_雷虎科技
 
 雷虎科技 (Thunder Tiger Corp, 8033.TW) 是台灣領先的無人載具開發商，成功從傳統遙控模型轉型為軍用商規無人機與無人艇供應商。

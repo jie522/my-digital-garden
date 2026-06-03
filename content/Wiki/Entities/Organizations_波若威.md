@@ -1,10 +1,3 @@
----
-created: 2026-06-01
-updated: 2026-06-02
-dg-publish: true
-tags: [stock, organization, 3163, competitor, AI, CPO]
-type: entity
----
 # Organizations_波若威 (3163)
 
 ## 📌 基本資料

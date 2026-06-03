@@ -1,10 +1,3 @@
----
-dg-publish: true
-created: 2026-06-01
-updated: 2026-06-01
-tags: [stock, organization, 6805, competitor]
-type: entity
----
 # Organizations_富世達 (6805)
 
 ## 📌 基本資料

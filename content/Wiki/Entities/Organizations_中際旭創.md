@@ -1,10 +1,3 @@
----
-dg-publish: true
-created: 2026-06-01
-updated: 2026-06-01
-tags: [stock, organization, optical, 1.6T]
-type: entity
----
 # Organizations_中際旭創 (InnoLight)
 
 ## 📌 基本資料

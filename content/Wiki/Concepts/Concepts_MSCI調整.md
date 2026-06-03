@@ -1,9 +1,3 @@
----
-created: 2026-06-02
-updated: 2026-06-02
-tags: [stock, index, msci, rebalancing]
-type: concept
----
 # MSCI 調整 (MSCI Index Rebalancing)
 
 MSCI 調整是全球投資市場的重大事件，對股市（尤其是台股）有顯著的資金流向影響。

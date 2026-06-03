@@ -1,80 +1,120 @@
 @use "./variables.scss" as *;
 
-/* AI-First Design: "High-end Minimalist" (Inspired by Linear & Vercel) */
+/* 
+   Awesome Design MD: "Radical Minimalist" Vibe 
+   - No borders
+   - Zero-radius
+   - High contrast (Black/White/Emerald)
+   - Large breathing room
+*/
 
 :root {
-  --bodyFont: "Inter", "Source Sans Pro", sans-serif;
-  --headerFont: "Inter", "Schibsted Grotesk", sans-serif;
+  --bodyFont: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  --headerFont: "Inter", sans-serif;
+  --codeFont: "JetBrains Mono", "IBM Plex Mono", monospace;
 }
 
 body {
+  background-color: #000000;
+  color: #ececec;
   font-family: var(--bodyFont);
-  letter-spacing: -0.015em; 
-  line-height: 1.7;
+  line-height: 1.8;
+  letter-spacing: -0.01em;
   -webkit-font-smoothing: antialiased;
 }
 
-/* Radical Subtraction: Remove unnecessary borders */
-.explorer-container, .popover, pre, code {
-  border: none !important;
-  box-shadow: none !important;
-}
-
-/* Typography Polish */
+/* Typography Mastery */
 h1, h2, h3, h4 {
   font-family: var(--headerFont);
-  letter-spacing: -0.04em; /* Aggressive tight spacing for headers */
-  font-weight: 700;
-  color: var(--dark);
+  font-weight: 800;
+  color: #ffffff;
+  letter-spacing: -0.05em;
+  line-height: 1.1;
 }
 
-h1 { font-size: 2.5rem; margin-top: 3rem; }
-h2 { font-size: 1.8rem; margin-top: 2.5rem; border-bottom: 1px solid #111; padding-bottom: 0.5rem; }
+h1 { font-size: 3.2rem; margin-top: 4rem; margin-bottom: 2rem; }
+h2 { font-size: 2rem; margin-top: 3.5rem; margin-bottom: 1.5rem; }
+h3 { font-size: 1.5rem; margin-top: 2.5rem; }
 
-/* Emerald Glow Accents */
-.internal-link, .alias {
-  color: var(--secondary);
+/* The Emerald Accent */
+a, .internal-link, .alias {
+  color: #00FF41;
   text-decoration: none;
-  border-bottom: 1px solid rgba(0, 255, 65, 0.1);
-  transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+  transition: all 0.2s ease;
+  border-bottom: 1px solid rgba(0, 255, 65, 0.15);
 }
 
-.internal-link:hover {
-  background-color: rgba(0, 255, 65, 0.05);
-  border-bottom: 1px solid var(--secondary);
+a:hover, .internal-link:hover {
+  color: #ffffff;
+  background-color: rgba(0, 255, 65, 0.1);
+  border-bottom: 1px solid #00FF41;
 }
 
-/* Sidebar Styling: Clean & Breathable */
+/* Radical Subtraction: UI Elements */
+.sidebar, .page-header, .page-footer, .explorer-container, .popover, pre, code {
+  border: none !important;
+  box-shadow: none !important;
+  background: transparent !important;
+}
+
+.search-button {
+  background: #0a0a0a !important;
+  border: 1px solid #1a1a1a !important;
+  border-radius: 4px !important;
+  padding: 0.6rem 1.2rem !important;
+  color: #888 !important;
+  font-weight: 500 !important;
+}
+
+.search-button:hover {
+  border-color: #00FF41 !important;
+  color: #ffffff !important;
+}
+
+/* Sidebar Cleanliness */
 .sidebar {
-  padding-top: 4rem !important;
+  padding-top: 6rem !important;
 }
 
 .folder-title, .file-title {
-  font-size: 0.95rem;
-  color: var(--gray);
-  transition: color 0.2s ease;
+  font-family: var(--headerFont);
+  font-weight: 500;
+  letter-spacing: -0.02em;
+  color: #666;
+  font-size: 0.9rem;
 }
 
-.folder-title:hover, .file-title:hover {
-  color: var(--dark);
+.folder-title:hover, .file-title:hover, .file-title.active {
+  color: #00FF41 !important;
 }
 
-/* Layout: Center-focused reading */
+/* List Item Polish */
+li {
+  margin-bottom: 0.5rem;
+}
+
+/* Reading Experience */
 .center article {
-  max-width: 750px;
+  max-width: 720px;
   margin: 0 auto;
+  padding-bottom: 10rem;
 }
 
-/* Component: Search */
-.search-button {
-  background: #111 !important;
-  border-radius: 6px !important;
-  padding: 0.5rem 1rem !important;
-  font-size: 0.9rem !important;
-  border: 1px solid #222 !important;
-}
-
-/* Hide specific metadata elements that might remain */
-.content-meta, .properties, .tags {
+/* Hide everything explicitly requested to be gone */
+.content-meta, .properties, .tags, .graph, .backlinks-title, .toc-title {
   display: none !important;
+}
+
+/* Code Blocks */
+pre {
+  background: #050505 !important;
+  padding: 1.5rem !important;
+  margin: 2rem 0 !important;
+  border-left: 2px solid #00FF41 !important;
+}
+
+code {
+  background: #111 !important;
+  padding: 0.2rem 0.4rem !important;
+  color: #00FF41 !important;
 }
